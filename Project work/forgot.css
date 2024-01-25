@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-image: url('backglogin.jpg');
+    background-size: cover;
+}
+h1{
+    color: wheat;
+}
+
+input{
+    display: block;
+    color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    
+    border: 1px solid white;
+    border-radius: 30px;
+    backdrop-filter: blur(90px);
+    height: 290px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+    
+}
+h1{
+    text-align: center;
+}
+#email,#password{
+    width: 275px;
+    height: 25px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom:2px solid rgb(211, 211, 211);
+    margin: 10px;
+    color: white;
+    
+}
+input::placeholder{
+     color:white;
+    font-size: 14px;
+}
+#forgot{
+  width:19%;  
+  background: wheat;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 3px solid transparent;
+  transition: 0.3s ease;
+
+}
+#forgot:hover{
+
+    color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+}
